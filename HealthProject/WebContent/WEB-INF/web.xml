@@ -1,0 +1,11 @@
+<!-- WebContent/WEB-INF/web.xml -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>HealthServlet</servlet-name>
+        <servlet-class>com.ihub.www.HealthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HealthServlet</servlet-name>
+        <url-pattern>/analyze</url-pattern>
+    </servlet-mapping>
+</web-app>
